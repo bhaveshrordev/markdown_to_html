@@ -177,6 +177,7 @@ GEM
     reline (0.5.0)
       io-console (~> 0.5)
     rexml (3.2.6)
+    rouge (4.2.1)
     rubyzip (2.3.2)
     selenium-webdriver (4.19.0)
       base64 (~> 0.2)
@@ -228,6 +229,7 @@ DEPENDENCIES
   rails (~> 7.0.8, >= 7.0.8.1)
   redcarpet (~> 3.6)
   redis (~> 4.0)
+  rouge (~> 4.2)
   selenium-webdriver
   sprockets-rails
   stimulus-rails
