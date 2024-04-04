@@ -6,7 +6,8 @@
   <% @notes.each do |note| %>
     <%= render note %>
     <p>
-      <%= link_to "Show this note", note %>
+      <%= link_to "Show this note", note %> || 
+      <%= link_to "Edit this note", edit_note_path(note) %>
     </p>
   <% end %>
 </div>
