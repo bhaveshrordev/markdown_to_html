@@ -14,10 +14,13 @@
  *= require_self
  */
 
-code {
+@import "rouge";
+
+/*code {
   color: red;
 }
 
 pre {
   background-color: silver;
 } 
+*/
