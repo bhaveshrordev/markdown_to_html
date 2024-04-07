@@ -8,7 +8,6 @@ module NotesHelper
   end
 
   def markdown(text)
-    # extensions = [ :highlight ]
     extensions = %i[
       hard_wrap autolink no_intra_emphasis tables fenced_code_blocks
       disabled_intended_code_blocks strikethrough lax_spacing space_after_headers
